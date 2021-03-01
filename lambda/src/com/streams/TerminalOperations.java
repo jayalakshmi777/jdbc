@@ -47,7 +47,7 @@ public class TerminalOperations {
 		Optional<String>str=ss.stream().findFirst();
 		System.out.println(str);
 		
-		//concat the streams
+		//concatination the streams
 		Set<String> ss2 = new HashSet<>();
 		ss2.add("one tomato");
 		ss2.add("two tomato");
